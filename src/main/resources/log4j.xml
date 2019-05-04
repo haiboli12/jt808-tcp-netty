@@ -84,7 +84,7 @@
 
 	<appender name="webLogAppender"
 		class="cn.hylexus.jt808.common.MyClassificationLogAppender">
-		<param name="File" value="D:/tomcat/logs/tpms-udp/info.log" />
+		<param name="File" value="D:/apache-tomcat-7.0.75/logs/tpms-udp/info.log" />
 		<param name="DatePattern" value="'.'yyyy-MM-dd'.log'" />
 		<param name="Threshold" value="info" />
 		<param name="Append" value="true" />
